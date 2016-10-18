@@ -15,6 +15,7 @@ def search():
     if request.method == 'POST':
         text = request.form['search_word']
         movie_infos = []
+        movie_infos.clear()
 
         soup = anitube.Anitube(text)
         movies = soup.getMovieURL()
