@@ -84,9 +84,9 @@ class Anitube:
                 "progress": idx,
                 "parameter": len(movie_urls)
             }
-            progressBar = getProgressBar(progress)
-            sys.stdout.write("getMovieinfo" + progressBar)
-            sys.stdout.flush()
+            #progressBar = getProgressBar(progress)
+            #sys.stdout.write("getMovieinfo" + progressBar)
+            #sys.stdout.flush()
         print("")
         return info_urls
 
