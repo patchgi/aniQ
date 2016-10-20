@@ -18,7 +18,7 @@ def search():
         movie_infos.clear()
 
         soup = anitube.Anitube(text)
-        movies = soup.getMovieURL()
+        movies = soup.movies
         titles = soup.titles
         images = soup.thumbnails
         for i in range(len(movies)):
